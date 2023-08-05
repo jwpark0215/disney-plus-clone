@@ -7,7 +7,7 @@ const Originals = (props) => {
     const movies = useSelector(selectOriginal)
   return (
     <Container>
-      <h4>New to Disney+ </h4>
+      <h4>Originals </h4>
       <Content>
         {movies &&
             movies.map((movie, key) => (
