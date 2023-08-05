@@ -3,6 +3,7 @@ import Login from './components/Login'
 import Home from './components/Home'
 import Header from "./components/Header";
 import "./App.css";
+import Detail from "./components/Detail";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Login />}/>
           <Route exact path="/home" element={<Home/>}/>
+          <Route exact path="/detail/:id" element={<Detail/>} />
         </Routes>
       </Router>
     </div>
